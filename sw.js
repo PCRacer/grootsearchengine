@@ -16,7 +16,8 @@ const PRECACHE = [
   "/static/fonts/roboto/roboto-v20-latin-ext_cyrillic_greek_greek-ext_cyrillic-ext_latin_vietnamese-700.woff2",
   "/static/fonts/roboto/roboto-v20-latin-ext_cyrillic_greek_greek-ext_cyrillic-ext_latin_vietnamese-regular.woff2",
   "/LightMode.jpg",
-  "/DarkMode.jpg"
+  "/DarkMode.jpg",
+  "/newspaperdesk.jpg"
 ];
 
 /* INSTALL */
