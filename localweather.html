@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"/>
+<title>Local Weather in Detail - SSuite Office Software | Get the best detailed local weather for up to 7 days in advance in any city. For Desktop, Mobile, and Online use.</title>
+<meta name="keywords" content="local,weather,city,groot,home,ssuite,office,productivity,software,portable,desktop,mobile,phone,smartphone,laptop,temperature,wind,sun,celcius,fahrenheit"/>
+<meta name="description" content="Get the best detailed local weather for up to 7 days in advance in any city. Created by the geniuses at SSuite Office which provides safe and trusted free office suite software and productivity tools for daily use. Modern visual design with easy interaction that has no strings or digital restrictions attached."/>
+<link rel="canonical" href="https://groot.ssuiteoffice.com/localweather.html"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@SSuiteOffice"/>
+<meta name="twitter:creator" content="@SSuiteOffice"/>
+<meta property="og:title" content="Groot Local Weather in Detail - SSuite Office Software"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://groot.ssuiteoffice.com/localweather.html"/>
+<meta property="og:image" content="https://groot.ssuiteoffice.com/weather.png"/>
+<meta property="og:image:alt" content="Get the best detailed local weather for up to 7 days in advance in any city. All our software is free for download, only from SSuite Office Software."/>
+<meta property="og:site_name" content="SSuite Office Software"/>
+<meta property="og:description" content="Get the best detailed local weather for up to 7 days in advance in any city. Created by the geniuses at SSuite Office which provide safe and trusted free software and office suites for daily use."/>
+<style type="text/css">
+body {background-color:#003661;}
+.localWeather {cursor:pointer;}
+.styled-select {height:29px;overflow:hidden;color:#545454;width:170px;letter-spacing:1px;font-size:16px;position:relative;left:27px;}
+.styled-select:focus {outline:none !important;}
+#mnu {transition:0.3s all;position:fixed;float:left;top:16px;font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#fff;padding:4px 5px 4px 5px;background-color:transparent;border:1px solid silver;cursor:pointer;border-radius:5px;}
+#mnu:hover {background-color:grey;}
+#TopMode {POSITION:relative;float:right;top:2px;z-index:1 !important;}
+#txtLabel {color:#444;position:relative;left:20px;top:4px;font-size:16px;font-family:Arial,Helvetica,sans-serif;}
+.theme-switch-wrapper {display: flex;align-items: center;em {margin-left: 10px;font-size: 1rem;};}
+.theme-switch {display: inline-block;height: 24px;position: relative;width: 60px;}
+.theme-switch input {display:none;}
+.slider {background-color: #ccc;bottom: 0;cursor: pointer;left: 0;position: absolute;right: 0;top: 0;transition: .4s;box-shadow:0px 0px 2px #444;}
+.slider:before {background-color: #fff;bottom: 4px;content: "";height: 16px;left: 4px;position: absolute;transition: .4s;width: 16px;}
+input:checked + .slider {background-color: SteelBlue;}
+input:checked + .slider:before {transform: translateX(36px);}
+.slider.round {border-radius: 24px;}
+.slider.round:before {border-radius: 50%;}
+</style>
+</head>
+<body>
+<div style="margin:auto;max-width:500px;">
+<div class="theme-switch-wrapper" id="TopMode"><label class="theme-switch" for="checkbox"><input type="checkbox" id="checkbox"/><div class="slider round"><span id="txtLabel">°F</span></div></label></div>
+<div id="mnu" onclick="window.location.assign('/');">Menu</div>
+<p align="center">
+<select class="styled-select" onchange="SetCity(this[this.selectedIndex].value);SetValue(this[this.selectedIndex].value);">
+<option value="">Auto Detect City</option>
+<option value="cape-town_south-africa_3369157">Cape Town</option>
+<option value="dallas_united-states-of-america_4684888">Dallas</option>
+<option value="darwin_australia_2073124">Darwin</option>
+<option value="langebaan_south-africa_3364795">Langebaan</option>
+<option value="london_united-kingdom_2643743">London</option>
+<option value="los-angeles_united-states-of-america_5368361">Los Angeles</option>
+<option value="miami_united-states-of-america_4164138">Miami</option>
+<option value="moscow_russia_524901">Moscow</option>
+<option value="new-york_united-states-of-america_5128581">New York</option>
+<option value="paris_france_2988507">Paris</option>
+<option value="perth_australia_2063523">Perth</option>
+<option value="pretoria_south-africa_964137">Pretoria</option>
+<option value="rayton_south-africa_963049">Rayton</option>
+<option value="san-francisco_united-states-of-america_5391959">San Francisco</option>
+<option value="sydney_australia_2147714">Sydney</option>
+</select></p></div>
+<div style="margin:auto;max-width:900px;text-align:center;position:relative;top:-10px;padding:0px;height:545px;">
+<iframe id="myFrame" src="https://www.meteoblue.com/en/weather/widget/three?geoloc=detect&nocurrent=0&noforecast=0&days=7&tempunit=FAHRENHEIT&windunit=KILOMETER_PER_HOUR&layout=dark"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width:100%;height:100%;"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a style="display:none !important;" href="https://www.meteoblue.com/en/weather/week/index?utm_source=weather_widget&utm_medium=linkus&utm_content=three&utm_campaign=Weather%2BWidget" target="_blank">meteoblue</a></div></div>
+<script type="text/javascript" charset="utf-8">
+var TempValue = "FAHRENHEIT";var CityValue = localStorage.getItem("CityNames") || "";
+function SetValue(val){CityValue=val;localStorage.setItem("CityNames",val);}
+function SetCity(CityName) {CityValue=CityName;document.getElementById("myFrame").src = "https://www.meteoblue.com/en/weather/widget/three/" + CityName + "?geoloc=fixed&nocurrent=0&noforecast=0&days=7&tempunit=" + TempValue + "&windunit=KILOMETER_PER_HOUR&layout=dark";}
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+const currentTheme = localStorage.getItem('temp') || 'F';
+if (currentTheme) {document.documentElement.setAttribute('data-theme', currentTheme);if (currentTheme === 'C') {toggleSwitch.checked = true;document.getElementById("txtLabel").innerText = "°C";document.getElementById("txtLabel").style.color = "#fff";TempValue = "CELSIUS";SetCity(CityValue);} else {toggleSwitch.checked = false;document.getElementById("txtLabel").innerText = "°F";document.getElementById("txtLabel").style.color = "#444";TempValue = "FAHRENHEIT";SetCity(CityValue);};}
+function switchTheme(e) {if (e.target.checked) {document.getElementById("txtLabel").innerText = "°C";document.getElementById("txtLabel").style.color = "#fff";TempValue = "CELSIUS";localStorage.setItem('temp','C');SetCity(CityValue);} else {document.getElementById("txtLabel").innerText = "°F";document.getElementById("txtLabel").style.color = "#444";TempValue = "FAHRENHEIT";localStorage.setItem('temp','F');SetCity(CityValue);};}
+var lcltheme = localStorage.getItem('temp');
+if (lcltheme === 'C') {toggleSwitch.checked = true;document.getElementById("txtLabel").innerText = "°C";document.getElementById("txtLabel").style.color = "#fff";TempValue = "CELSIUS";SetCity(CityValue);} else {toggleSwitch.checked = false;document.getElementById("txtLabel").innerText = "°F";document.getElementById("txtLabel").style.color = "#444";TempValue = "FAHRENHEIT";SetCity(CityValue);}
+toggleSwitch.addEventListener('change', switchTheme, false);
+</script>
+</body>
+</html>
