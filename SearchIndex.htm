@@ -187,9 +187,6 @@ body.dark .gsc-input-box:focus-within {
     border: 1px solid #3a3a3c !important;
 }
 
-
-
-
 /* Responsive */
 @media (max-width: 768px) {
     .card {
@@ -206,6 +203,62 @@ body.dark .gsc-input-box:focus-within {
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(30px); }
     to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* ===== Force Full Width Search Box ===== */
+
+.gsc-control-cse,
+.gsc-control-wrapper-cse,
+.gsc-search-box,
+.gsc-search-box table,
+.gsc-search-box td {
+    width: 100% !important;
+}
+
+.gsc-input-box {
+    width: 100% !important;
+}
+
+.gsc-input {
+    width: 100% !important;
+}
+
+/* Make input cell take all available space */
+td.gsc-input {
+    width: 100% !important;
+}
+
+/* Keep button properly aligned */
+td.gsc-search-button {
+    white-space: nowrap !important;
+}
+
+/* ===== Make Results Match Search Width ===== */
+
+.gcse-searchresults,
+.gsc-results-wrapper-overlay,
+.gsc-results-wrapper-visible,
+.gsc-results,
+.gsc-webResult,
+.gsc-expansionArea {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* Remove Google's default margins */
+.gsc-control-cse .gsc-table-result {
+    width: 100% !important;
+}
+
+/* Ensure results align with search input container */
+.gsc-control-cse {
+    padding: 0 !important;
+}
+
+.gsc-results-wrapper-visible {
+    margin-top: 20px !important;
 }
 </style>
 </head>
