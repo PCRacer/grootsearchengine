@@ -1,0 +1,34 @@
+# SSuite Office - Software Made Simple
+
+> My brother and I created our website with a single purpose in mind... to provide computer-users with free quality office software and applications without any restrictions attached. Our main philosophy "Pure Visual Simplicity" is the bases of all our software creations and design masterpieces. We specialize in software that is profoundly useful, pleasing to the eyes, and efficient to run on any computer system without any restrictive digital technologies.
+
+Important notes:
+
+- Our applications have the smallest system footprint possible and consume almost no resources, making them the fastest running software available.
+
+- We have no trial versions present, no recurring service or subscription fees for anyone to pay, and no registration of personal information is necessary. There is also no need for Java or DotNet on your computer.
+
+## Docs
+
+- [SSuiteOffice quick start](https://www.ssuiteoffice.com/Docs/SSuiteExcaliburOfficeReadMePDFHQ.pdf): A brief overview of many SSuite Office software features.
+
+- [SSuite NetSurfer Browser](https://netsurfer.ssuiteoffice.com/SSuiteNetSurferReadMePDFHQ.pdf): SSuite NetSurfer Prometheus is a cutting-edge browser designed to offer lightning-fast speed, top-tier security, and unparalleled innovation with preinstalled extensions. It empowers you to explore the digital world freely, without BigTech watching!
+
+## Examples
+
+- [SSuite Office NetSurfer application](https://netsurfer.ssuiteoffice.com/): Created from pure originality, engineered for ultimate speed, and backed by trusted security, this browser redefines modern browsing. Experience seamless performance and protection without limits on any device, no matter its age.
+
+- [SSuite Office Software](https://www.ssuiteoffice.com/software/ssuiteexcalibur.htm): Professional and comprehensive free office suite for students, home users, and office workers.
+
+- [SSuite UltraCam Video Phone](https://www.ssuiteoffice.com/software/ultracamvideophone.htm): A professional video phone running real-time video at 30fps, with a file transfer portal.
+
+- [SSuite MonoBase Database](https://www.ssuiteoffice.com/categories/database.htm): An all in one database creator, with ODBC connectivity, SQL query engine, and custom report builder.
+
+- [SSuite WordGraph Word Processor](https://www.ssuiteoffice.com/software/wordgraph.htm): A professional word processor and presentation creator in one application.
+
+## Optional
+
+- [All About SSuite Office Software](https://www.ssuiteoffice.com/aboutus.htm): SSuite Office is the foremost provider of Free quality office software on the internet today. We are there for anyone that needs excellent and professional free software that actually works without any hassles. Even the first time computer-user as well as the more experienced computer-user can find the best free software applications here with us.
+
+- [Our own Technology Blog](https://blog.ssuiteoffice.com/): Be the first to know about new features, software releases, online security, browser settings, and so much more.
+
