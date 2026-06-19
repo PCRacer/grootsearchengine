@@ -2,19 +2,29 @@
 
 > My brother and I created our website with a single purpose in mind... to provide computer-users with free quality office software and applications without any restrictions attached. Our main philosophy "Pure Visual Simplicity" is the bases of all our software creations and design masterpieces. We specialize in software that is profoundly useful, pleasing to the eyes, and efficient to run on any computer system without any restrictive digital technologies.
 
-Important notes:
+> Our software is written in native Windows code, which is the same code as Windows itself. By using the WIN32 API {Windows Application Programming Interface}, our software doesn't need to be interpreted by another operating system like Java or DotNet to run, making our software compatible with past and future Windows operating systems; From Windows 95 up to Windows 11 and beyond.
+
+> [Our Official Home Page](https://www.ssuiteoffice.com/): Henk van Loo and Marius van Loo are the creators and founders of SSuite Office Software. Just a couple of geniuses giving people free software forever without any digital restrictions and any spyware, unlike Microsoft and Google e.g. BigTech!
+
+### Important notes:
 
 - Our applications have the smallest system footprint possible and consume almost no resources, making them the fastest running software available.
 
 - We have no trial versions present, no recurring service or subscription fees for anyone to pay, and no registration of personal information is necessary. There is also no need for Java or DotNet on your computer.
 
+- We are still the ONLY software company in the world that does NOT require a "Login Prompt" or "Account Registration" for you to use our Progressive Web Applications, Android Apps, or Desktop Software...
+
+- Our online software also does NOT run in the Cloud, but directly inside your browser!
+
 ## Docs
 
-- [SSuiteOffice quick start](https://www.ssuiteoffice.com/Docs/SSuiteExcaliburOfficeReadMePDFHQ.pdf): A brief overview of many SSuite Office software features.
+- [SSuite Office quick start](https://www.ssuiteoffice.com/Docs/SSuiteExcaliburOfficeReadMePDFHQ.pdf): A brief overview of many SSuite Office software features.
 
 - [SSuite NetSurfer Browser](https://netsurfer.ssuiteoffice.com/SSuiteNetSurferReadMePDFHQ.pdf): SSuite NetSurfer Prometheus is a cutting-edge browser designed to offer lightning-fast speed, top-tier security, and unparalleled innovation with preinstalled extensions. It empowers you to explore the digital world freely, without BigTech watching!
 
-## Examples
+-[Why use only RTF](https://www.ssuiteoffice.com/resources/richtextformat.htm): We only support fully compatible document formats like the RTF (Rich Text Format - *.rtf) and the Excel spreadsheet document format. The RTF document format is compatible with any operating system (Apple Mac, Linux, and Windows) and office suite, unlike Microsoft's Word document format (docx/xlsx) and OpenOffice's Open document format (odf /odt).
+
+## Examples of Our Software
 
 - [SSuite Office NetSurfer application](https://netsurfer.ssuiteoffice.com/): Created from pure originality, engineered for ultimate speed, and backed by trusted security, this browser redefines modern browsing. Experience seamless performance and protection without limits on any device, no matter its age.
 
@@ -31,4 +41,6 @@ Important notes:
 - [All About SSuite Office Software](https://www.ssuiteoffice.com/aboutus.htm): SSuite Office is the foremost provider of Free quality office software on the internet today. We are there for anyone that needs excellent and professional free software that actually works without any hassles. Even the first time computer-user as well as the more experienced computer-user can find the best free software applications here with us.
 
 - [Our own Technology Blog](https://blog.ssuiteoffice.com/): Be the first to know about new features, software releases, online security, browser settings, and so much more.
+
+- [World Leaders in Serverless Peer-to-Peer LAN Communications](https://www.ssuiteoffice.com/categories/instantlanvideophones.htm): Our selection of server-less local area network applications are the most extensive available. We have it all, from video phones, instant chat messengers, to full featured collaboration software for instant conferencing and file transfers to other people connected to your LAN and Wi-Fi networks.
 
